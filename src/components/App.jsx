@@ -6,6 +6,7 @@ import Subscription from "./Subscription";
 import SubQuote from "./SubQuote";
 import Catalogue from "./Catalogue";
 import Press from "./Press";
+import Footer from "./Footer";
 function App(){
     return <div>
         <Navbar />
@@ -15,6 +16,7 @@ function App(){
         <SubQuote />
         <Catalogue />
         <Press />
+        <Footer />
     </div>;
 }
 
