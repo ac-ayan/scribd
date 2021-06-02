@@ -60,9 +60,8 @@ body{
     
 }
 .cover-content{
-    position: absolute;
+    position: relative;
     color: #fff;
-    z-index: 10;
     display: inline-block;
     width: 560px;
    margin: 135px 60px;
@@ -92,5 +91,42 @@ body{
 }
 .cover-content .p-below{
     font-size: 16px;
+    font-weight: 400;
+}
+
+.subscription h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #000514;
+    margin: 0 auto 16px;
+    max-width: 792px;
+    text-align: center;
+}
+.subscription{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.icon-division{
+    display: inline-block;
+ align-items: center;
+ justify-content: center;
+ align-content: center;
+ margin-top: 30px;
+ margin-bottom: 160px;
+}
+.item-tag{
+    display: inline-block;
+    display:inline-flex;
+    flex-direction:row;
+}
+.subscription .MuiSvgIcon-root{
+    color: #1e7b85;
+    font-size: 40px;
+    margin-bottom: 15px;
+   
+}
+.subscription .sub-text{
+    font-size: 18px;
     font-weight: 400;
 }
