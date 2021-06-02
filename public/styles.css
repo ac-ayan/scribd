@@ -130,6 +130,9 @@ body{
     font-size: 18px;
     font-weight: 400;
 }
+.sub-quote .quote-img-div{
+    display: inline-block;
+}
 .sub-quote{
     align-items: center;
     text-align: center;
@@ -157,4 +160,66 @@ body{
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+    display: block;
+    padding-left: 55px;
+}
+.books {
+    padding: 0 300px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.catalogue{
+     background-color: #5a1d41;
+     height: 655px;
+}
+.catalogue h2{
+    font-weight: 400;
+    color: #fafbfd;
+    text-transform: uppercase;
+    line-height: 1em;
+    text-align: center;
+    padding: 65px;
+}
+.book_item{
+    display: inline-block;
+    padding: 1.5px;
+    margin-top: 7px;
+}
+.Book-button {
+    background: #1e7b85 !important;
+    color: #fff !important;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 240px;
+    height: 45px;
+    font-size: 18px !important;
+}
+.button{
+    margin-top: 35px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.cancel-para{
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 10px;    
+}
+.press {
+    background-color: #fff;
+    height: 500px;
+    text-align: center;
+}
+.press p{
+    margin-top: 10px;
+    color: #466474;
+}
+.press-item-div{
+    display:flex;
+    justify-content: space-around;
+    padding-left: 230px;
+    padding-right: 230px;
 }
