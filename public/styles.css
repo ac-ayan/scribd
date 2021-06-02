@@ -130,3 +130,31 @@ body{
     font-size: 18px;
     font-weight: 400;
 }
+.sub-quote{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.sub-quote .quote-img {
+    display: inline-block;
+    height: 46px;
+    width: 62px;
+    margin-bottom:70px;
+}
+.sub-quote .main-para{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+    margin: 0;
+    max-width: 588px;
+    padding-bottom: 16px;
+    text-align: center;
+    z-index: 2;
+    display: inline-block;
+}
+.sub-quote .sub-para{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
