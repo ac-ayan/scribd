@@ -1,0 +1,246 @@
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body{
+    
+}
+.navbar-custom{
+    background-color: #00293f;
+    color: #fff;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    height: 55px;
+   padding-top: 5px;
+}
+.menu-icon{
+    width: 25px !important;
+    height: 40px !important;
+    margin-right: 10px;
+}
+.navbar-brand{
+    margin-left: 5px;
+}
+.brand-logo{
+   height: 26px;
+}
+.cover{
+    background-color: #01273c;
+    position: absolute;
+    z-index: -1;
+    height: 535px;
+    width: 100%;
+    overflow:hidden;
+}
+.cover-image{
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 18px;
+  width: 100%;
+  height: 660px;
+  margin-top: -10px;
+  
+}
+.white{
+    height: 50px;
+    background-color: #fff;
+   
+}
+.btn-custom{
+    color: #fff;
+    border: 1.5px solid #fff;
+    width: 120px;
+    height:45px;
+    font-weight: 600;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    
+}
+.cover-content{
+    position: relative;
+    color: #fff;
+    display: inline-block;
+    width: 560px;
+   margin: 135px 60px;
+}
+.cover-content h1 {
+    font-size: 52px;
+    margin: 0 0 16px;
+    max-width: 560px;
+    font-weight: bold;
+}
+.cover-content p{
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.cover-content button{
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.3em;
+    padding: 12px 24px;
+    position: relative;
+    text-align: center;
+    min-width: 320px;
+    margin-bottom: 12px;
+}
+.cover-content .p-below{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.subscription h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #000514;
+    margin: 0 auto 16px;
+    max-width: 792px;
+    text-align: center;
+}
+.subscription{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.icon-division{
+    display: inline-block;
+ align-items: center;
+ justify-content: center;
+ align-content: center;
+ margin-top: 30px;
+ margin-bottom: 160px;
+}
+.item-tag{
+    display: inline-block;
+    display:inline-flex;
+    flex-direction:row;
+}
+.subscription .MuiSvgIcon-root{
+    color: #1e7b85;
+    font-size: 40px;
+    margin-bottom: 15px;
+   
+}
+.subscription .sub-text{
+    font-size: 18px;
+    font-weight: 400;
+}
+.sub-quote .quote-img-div{
+    display: inline-block;
+}
+.sub-quote{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.sub-quote .quote-img {
+    display: inline-block;
+    height: 46px;
+    width: 62px;
+    margin-bottom:70px;
+}
+.sub-quote .main-para{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 600;
+    margin: 0;
+    max-width: 588px;
+    padding-bottom: 16px;
+    text-align: center;
+    z-index: 2;
+    display: inline-block;
+}
+.sub-quote .sub-para{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    display: block;
+    padding-left: 55px;
+}
+.books {
+    padding: 0 300px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.catalogue{
+     background-color: #5a1d41;
+     height: 655px;
+}
+.catalogue h2{
+    font-weight: 400;
+    color: #fafbfd;
+    text-transform: uppercase;
+    line-height: 1em;
+    text-align: center;
+    padding: 65px;
+}
+.book_item{
+    display: inline-block;
+    padding: 1.5px;
+    margin-top: 7px;
+}
+.Book-button {
+    background: #1e7b85 !important;
+    color: #fff !important;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 240px;
+    height: 45px;
+    font-size: 18px !important;
+}
+.button{
+    margin-top: 35px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.cancel-para{
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 10px;    
+}
+.press {
+    background-color: #fff;
+    text-align: center;
+}
+.press p{
+    margin-top: 10px;
+    color: #466474;
+}
+.press-item-div{
+    display:flex;
+    justify-content: space-around;
+    padding-left: 230px;
+    padding-right: 230px;
+}
+
+.footer-div {
+    margin-top:30px;
+    padding-top: 50px;
+    background-color: #f0f2f9;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.footer-div h6{
+    font-weight: 600;
+    font-style: normal;
+}
+.footer-div ul{
+    padding-left: 0;
+    font-weight: 400;
+    font-style: normal;
+    font-size: .875rem;
+}
+.footer-div ul li {
+    list-style-type: none;
+    text-align: left;
+}
